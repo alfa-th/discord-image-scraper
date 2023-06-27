@@ -7,9 +7,7 @@ from PIL import Image
 from scraper import get_s_image_urls, get_vt_soup, preprocess_s_image_urls
 from typing import List, Optional
 
-TOKEN = (
-    "MTEwMjUwNzg3MTcyMTIzMDM0Ng.G965kH.FwXYGZdyMH_eESrY6ZKPfYEvO8WcEXbB-klwUY"
-)
+TOKEN = ()
 
 client = discord.Client()
 
